@@ -2,21 +2,27 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "Note taking app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "author": "Chuck DeBrosse",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cmdebrosse/express-note-taker.git"
   },
-  "author": "Chuck DeBrosse",
-  "license": "ISC",
+  "keywords": [
+    "express",
+    "note",
+    "taker"
+  ],
   "bugs": {
     "url": "https://github.com/cmdebrosse/express-note-taker/issues"
   },
-  "homepage": "https://github.com/cmdebrosse/express-note-taker#readme",
-  "dependencies": {
-    "express": "^4.17.2"
-  }
+  "homepage": "https://github.com/cmdebrosse/express-note-taker#readme"
 }
