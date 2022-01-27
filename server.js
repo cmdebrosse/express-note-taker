@@ -5,7 +5,7 @@ const fs = require('fs');
 
 // Setting const variables to invoke express, set PORT number, and 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 const rootDirectory = path.join(__dirname, '/public')
 
 // Middleware to retrieve content from /public directory
