@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 
-// Setting const variables to invoke express, set PORT number, and 
+// Setting const variables to invoke express, set deployment for Heroku and PORT number, and joining the root 'public' directory
 const app = express();
 const PORT = process.env.PORT || 3001;
 const rootDirectory = path.join(__dirname, '/public')
